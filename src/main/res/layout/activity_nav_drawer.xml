@@ -15,7 +15,7 @@
     <!-- android:layout_marginTop="?android:attr/actionBarSize"-->
     <com.inoapp.lib.navdrawer.ScrimInsetsFrameLayout android:id="@+id/scrimInsetsFrameLayout"
         android:layout_width="@dimen/navigation_drawer_width" android:layout_height="wrap_content"
-        android:fitsSystemWindows="true" android:layout_gravity="start" app:insetForeground="#4000"
+        android:fitsSystemWindows="true" android:layout_gravity="start" app:insetForeground2="#4000"
         android:elevation="10dp">
         <fragment android:id="@+id/fragment_drawer"
             android:name="com.inoapp.lib.navdrawer.NavigationDrawerFragment"
